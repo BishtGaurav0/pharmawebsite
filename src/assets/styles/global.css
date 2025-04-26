@@ -1,0 +1,45 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+  }
+  
+  .site-navbar {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .site-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .site-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-menu li {
+    margin: 0 1rem;
+  }
+  
+  .site-menu li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .site-footer {
+    background: #f8f8f8;
+    padding: 2rem 0;
+  }
+  
+  .footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  

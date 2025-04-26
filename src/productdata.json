@@ -1,0 +1,326 @@
+  {
+
+    "products":
+    [  
+
+    {
+        "id": 1,
+        "name": "Bioderma Sensibio H2O Micellar Water",
+        "category": "Skincare",
+        "brand": "Bioderma",
+        "price": 17.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/51h69lpwKlL.jpg",
+        "description": "A gentle, no-rinse cleansing water that effectively removes makeup and impurities while maintaining the skin's natural balance. Ideal for sensitive skin, it leaves the skin feeling clean, smooth, and hydrated."
+      },
+      {
+        "id": 2,
+        "name": "Chanca Piedra Herbal Supplement",
+        "category": "Herbal Supplements",
+        "brand": "Herb Pharm",
+        "price": 25.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/71NlOWDsxgL.jpg",
+        "description": "Chanca Piedra, also known as 'stone breaker,' is an herb traditionally used to support kidney health and may help reduce the size of kidney stones. It also offers antioxidant, anti-inflammatory, and diuretic properties. Consult with a healthcare provider before use."
+      },
+      {
+        "id": 3,
+        "name": "Umcka ColdCare Day+Night Hot Drink",
+        "category": "Cold & Flu Relief",
+        "brand": "Nature's Way",
+        "price": 19.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/61fdcdcd3981d755b9185131_0033674106013-glamor-front-2022-01-20t22-34-18-iphone-x-quality-90-1-26-2-user-5984ad42a967f880524de2c4-usz7-741567.jpg",
+        "description": "Umcka ColdCare Day+Night Hot Drink provides relief from cold symptoms with two formulas: a non-drowsy Day formula and a soothing Night formula with honey-lemon flavor. Contains Pelargonium sidoides root extract to reduce the severity and duration of upper respiratory symptoms."
+      },
+      {
+        "id": 4,
+        "name": "Cetyl Pure Joint Support",
+        "category": "Joint Health",
+        "brand": "CetylPure",
+        "price": 29.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61EKOQDwBSL.jpg",
+        "description": "Cetyl Pure Joint Support is a dietary supplement designed to promote joint health and mobility. It contains cetylated fatty acids, which may help reduce joint discomfort and improve flexibility. Suitable for individuals seeking natural joint support."
+      },
+      {
+        "id": 5,
+        "name": "CLA Core Weight Management",
+        "category": "Weight Management",
+        "brand": "Transparent Labs",
+        "price": 34.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61LEs48ZOQL._AC_UF1000,1000_QL80_.jpg",
+        "description": "CLA Core is a supplement formulated to support weight management and lean muscle mass. Conjugated Linoleic Acid (CLA) may help reduce body fat and improve body composition when combined with a healthy diet and exercise."
+      },
+      {
+        "id": 6,
+        "name": "Poo~Pourri Before-You-Go Toilet Spray",
+        "category": "Personal Care",
+        "brand": "Poo~Pourri",
+        "price": 9.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/71LuJnfLWWL.jpg",
+        "description": "Poo~Pourri is a natural toilet spray made from essential oils like Bergamot, Lemongrass, and Grapefruit. Spray into the toilet bowl before use to trap odors beneath the surface, leaving the bathroom smelling fresh and clean."
+      },
+      {
+        "id": 7,
+        "name": "Cetaphil Daily Facial Cleanser",
+        "category": "Skincare",
+        "brand": "Cetaphil",
+        "price": 10.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/51RZjGsfF5L._AC_UF1000,1000_QL80_.jpg",
+        "description": "Cetaphil Daily Facial Cleanser is a gentle, non-irritating formula that removes dirt and oil without stripping the skin's natural moisture. Ideal for all skin types, it leaves the skin feeling soft and refreshed."
+      },
+      {
+        "id": 8,
+        "name": "Chanca Piedra Tea",
+        "category": "Herbal Supplements",
+        "brand": "Herb Pharm",
+        "price": 15.00,
+        "availability": "In Stock",
+        "image": "https://i.etsystatic.com/48112808/r/il/7f5ddb/5589081442/il_1080xN.5589081442_gjmz.jpg",
+        "description": "Chanca Piedra Tea is an herbal infusion made from the leaves of the Phyllanthus niruri plant. Traditionally used to support kidney and liver health, it offers antioxidant and anti-inflammatory benefits."
+      },
+      {
+        "id": 9,
+        "name": "Oscillococcinum Flu Relief",
+        "category": "Cold & Flu Relief",
+        "brand": "Boiron",
+        "price": 12.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61Lk2JDjdoL.jpg",
+        "description": "Oscillococcinum is a homeopathic medicine used to reduce the severity and duration of flu-like symptoms such as fever, chills, body aches, and fatigue. It is safe for all ages and can be taken at the onset of symptoms."
+      },
+      {
+        "id": 10,
+        "name": "Glucosamine Chondroitin MSM",
+        "category": "Joint Health",
+        "brand": "Move Free",
+        "price": 25.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61whj1Y8-+L.jpg",
+        "description": "Move Free Glucosamine Chondroitin MSM is a dietary supplement designed to support joint health and mobility. It contains glucosamine, chondroitin, and MSM to help maintain cartilage and reduce joint discomfort."
+      },
+
+      {
+        "id": 11,
+        "name": "Garcinia Cambogia Extract",
+        "category": "Weight Management",
+        "brand": "NutriGold",
+        "price": 20.00,
+        "availability": "In Stock",
+        "image": "https://www.jiomart.com/images/product/original/rv9eoinl1i/simply-herbal-garcinia-cambogia-extract-60-capsules-product-images-orv9eoinl1i-p591455897-4-202301190850.png?im=Resize=(420,420)",
+        "description": "NutriGold Garcinia Cambogia Extract is designed to support healthy weight management. It contains natural hydroxycitric acid (HCA) that may help curb appetite and inhibit fat production."
+      },
+      {
+        "id": 12,
+        "name": "Elderberry Gummies",
+        "category": "Immune Support",
+        "brand": "Nature’s Truth",
+        "price": 16.99,
+        "availability": "In Stock",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrt/nrt00561/y/34.jpg",
+        "description": "Nature’s Truth Elderberry Gummies are packed with antioxidants to help support the immune system. Each serving delivers elderberry extract, vitamin C, and zinc for daily wellness."
+      },
+      {
+        "id": 13,
+        "name": "Neutrogena Hydro Boost Water Gel",
+        "category": "Skincare",
+        "brand": "Neutrogena",
+        "price": 22.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/71TiMcxrpkL.jpg",
+        "description": "Neutrogena Hydro Boost Water Gel delivers intense hydration with hyaluronic acid. It absorbs quickly like a gel but provides long-lasting moisture like a cream, making skin smooth and supple."
+      },
+      {
+        "id": 14,
+        "name": "Nature Made Vitamin D3 2000 IU",
+        "category": "Vitamins & Supplements",
+        "brand": "Nature Made",
+        "price": 11.99,
+        "availability": "In Stock",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/ku2zjww0/vitamin-supplement/i/4/p/220-vitamin-d3-2000-iu-dietary-nature-made-original-imag7a6ured6kwby.jpeg?q=90&crop=false",
+        "description": "Nature Made Vitamin D3 helps support bone, teeth, muscle, and immune health. It contains 2000 IU of D3, the body's preferred form of vitamin D."
+      },
+      {
+        "id": 15,
+        "name": "Biofreeze Pain Relief Gel",
+        "category": "Personal Care",
+        "brand": "Biofreeze",
+        "price": 14.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61dupyALxdL.jpg",
+        "description": "Biofreeze provides fast-acting cold therapy pain relief for sore muscles, backaches, arthritis, and joint pain. The gel formula is non-greasy and paraben-free."
+      },
+      {
+        "id": 16,
+        "name": "NOW Magnesium Citrate",
+        "category": "Vitamins & Supplements",
+        "brand": "NOW Foods",
+        "price": 12.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/51YLDj5V+4L._AC_UF1000,1000_QL80_.jpg",
+        "description": "NOW Magnesium Citrate supports bone health and muscle function. It’s highly bioavailable and helps relax the body and reduce fatigue."
+      },
+      {
+        "id": 17,
+        "name": "Aquaphor Healing Ointment",
+        "category": "Skincare",
+        "brand": "Aquaphor",
+        "price": 8.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61vI44BO7uL.jpg",
+        "description": "Aquaphor Healing Ointment is a multi-purpose skin protectant ideal for dry, cracked, or irritated skin. It’s fragrance-free and dermatologist-recommended."
+      },
+      {
+        "id": 18,
+        "name": "Durex Extra Sensitive Condoms",
+        "category": "Personal Care",
+        "brand": "Durex",
+        "price": 12.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/S/aplus-media/sota/806efe2e-17df-465d-bab9-0142576b6752._SL300__.jpg",
+        "description": "Durex Extra Sensitive Condoms are designed to enhance sensitivity while providing reliable protection. They’re extra thin with a silky smooth lubricant."
+      },
+      {
+        "id": 19,
+        "name": "Advil Pain Reliever and Fever Reducer",
+        "category": "Cold & Flu Relief",
+        "brand": "Advil",
+        "price": 10.50,
+        "availability": "In Stock",
+        "image": "https://images-cdn.ubuy.co.in/654d5bab45c2130022443785-advil-ibuprofen-200-mg-pain.jpg",
+        "description": "Advil contains ibuprofen 200mg for temporary relief of headaches, toothaches, backaches, muscle pain, minor arthritis, and fever."
+      },
+      {
+        "id": 20,
+        "name": "Dr. Bronner’s Pure Castile Liquid Soap",
+        "category": "Personal Care",
+        "brand": "Dr. Bronner’s",
+        "price": 18.00,
+        "availability": "In Stock",
+        "image": "https://images-eu.ssl-images-amazon.com/images/I/71Pt9-0ToAL._AC_UL900_SR615,900_.jpg",
+        "description": "Dr. Bronner’s Castile Liquid Soap is made with organic oils and certified fair trade ingredients. Versatile for face, body, hair, dishes, and more."
+      },
+
+      {
+        "id": 21,
+        "name": "Thorne Research Basic Nutrients 2/Day",
+        "category": "Vitamins & Supplements",
+        "brand": "Thorne Research",
+        "price": 28.00,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/518Cyu9RkbL.jpg",
+        "description": "A comprehensive daily multivitamin and mineral supplement that supports foundational health with key nutrients in bioavailable forms."
+      },
+      {
+        "id": 22,
+        "name": "Olaplex Hair Perfector No. 3",
+        "category": "Hair Care",
+        "brand": "Olaplex",
+        "price": 30.00,
+        "availability": "In Stock",
+        "image": "https://images-static.nykaa.com/media/catalog/product/e/d/eddc22fNYOLPX0000001.jpg",
+        "description": "A weekly at-home treatment that strengthens hair, reduces breakage, and improves its overall look and feel."
+      },
+      {
+        "id": 23,
+        "name": "Tylenol Extra Strength Caplets",
+        "category": "Pain Relief",
+        "brand": "Tylenol",
+        "price": 10.49,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61BQFn531XL.jpg",
+        "description": "Provides powerful relief for headaches, backaches, arthritis, and more with 500mg of acetaminophen per caplet."
+      },
+      {
+        "id": 24,
+        "name": "SmartyPants Adult Daily Gummy Multivitamin",
+        "category": "Vitamins & Supplements",
+        "brand": "SmartyPants",
+        "price": 19.95,
+        "availability": "In Stock",
+        "image": "https://images-cdn.ubuy.co.in/633b085f9e59b468907a716b-smartypants-daily-gummy-multivitamin.jpg",
+        "description": "Delicious gummies packed with essential vitamins, omega-3s, and antioxidants to support overall wellness."
+      },
+      {
+        "id": 25,
+        "name": "Nature’s Bounty Melatonin 10mg",
+        "category": "Sleep Support",
+        "brand": "Nature’s Bounty",
+        "price": 8.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/71-gtJsDwjL._AC_UF1000,1000_QL80_.jpg",
+        "description": "Helps promote restful sleep for those experiencing occasional sleeplessness, with a high potency of 10mg melatonin per serving."
+      },
+      {
+        "id": 26,
+        "name": "Aveeno Daily Moisturizing Lotion",
+        "category": "Skincare",
+        "brand": "Aveeno",
+        "price": 6.79,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/41E5nL4kRyL._AC_UF1000,1000_QL80_.jpg",
+        "description": "Clinically proven to relieve dry skin, this nourishing formula with oatmeal moisturizes for 24 hours."
+      },
+      {
+        "id": 27,
+        "name": "Dr. Teal’s Pure Epsom Salt Soaking Solution",
+        "category": "Bath & Body",
+        "brand": "Dr. Teal’s",
+        "price": 5.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/71YWO2A2rBL.jpg",
+        "description": "Relax sore muscles and ease aches with this lavender-infused Epsom salt blend for a calming bath experience."
+      },
+      {
+        "id": 28,
+        "name": "Listerine Cool Mint Antiseptic Mouthwash",
+        "category": "Oral Care",
+        "brand": "Listerine",
+        "price": 7.49,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/61+gJ5XHmYL._AC_UF1000,1000_QL80_.jpg",
+        "description": "Kills 99.9% of germs that cause bad breath, plaque, and gingivitis with a refreshing mint flavor."
+      },
+      {
+        "id": 29,
+        "name": "CeraVe Moisturizing Cream",
+        "category": "Skincare",
+        "brand": "CeraVe",
+        "price": 16.99,
+        "availability": "In Stock",
+        "image": "https://m.media-amazon.com/images/I/6147cwOvHBL.jpg",
+        "description": "Provides 24-hour hydration with essential ceramides and hyaluronic acid, ideal for dry to very dry skin."
+      },
+      {
+        "id": 30,
+        "name": "Emergen-C Vitamin C Powder",
+        "category": "Immune Support",
+        "brand": "Emergen-C",
+        "price": 11.50,
+        "availability": "In Stock",
+        "image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-emergenc/en_US/products/productimages/everyday-powder-tangerine-30ct-4-packet-emc.jpg?auto=format",
+        "description": "Boosts your immune system with 1000mg of vitamin C, antioxidants, and B vitamins in a tangy tangerine flavor."
+      }
+
+
+
+
+
+
+       
+       
+         
+         
+        ]
+
+
+
+
+  }
+  
+   
+  
