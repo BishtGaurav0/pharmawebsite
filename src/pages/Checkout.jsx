@@ -1,14 +1,28 @@
-import React from 'react';
-import { Box, Container, Typography, Grid, TextField, FormControlLabel, Checkbox, Button, Paper } from '@mui/material';
-
+import React from "react";
+import {
+  Box,
+  Container,
+  Typography,
+  Grid,
+  TextField,
+  FormControlLabel,
+  Checkbox,
+  Button,
+  Paper,
+} from "@mui/material";
+import { Link } from 'react-router-dom';
 const Checkout = () => {
   return (
     <Container sx={{ py: 8 }}>
-      <Typography variant="h4" gutterBottom>Checkout</Typography>
+      <Typography variant="h4" gutterBottom>
+        Checkout
+      </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} md={7}>
           <Paper sx={{ p: 3 }}>
-            <Typography variant="h6" gutterBottom>Billing Details</Typography>
+            <Typography variant="h6" gutterBottom>
+              Billing Details
+            </Typography>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField fullWidth label="First Name" required />
@@ -23,7 +37,10 @@ const Checkout = () => {
                 <TextField fullWidth label="Address" required />
               </Grid>
               <Grid item xs={12}>
-                <TextField fullWidth label="Apartment, suite, unit etc. (optional)" />
+                <TextField
+                  fullWidth
+                  label="Apartment, suite, unit etc. (optional)"
+                />
               </Grid>
               <Grid item xs={12} sm={6}>
                 <TextField fullWidth label="State / Country" required />
@@ -32,14 +49,25 @@ const Checkout = () => {
                 <TextField fullWidth label="Postal / ZIP" required />
               </Grid>
               <Grid item xs={12} sm={6}>
-                <TextField fullWidth label="Email Address" required type="email" />
+                <TextField
+                  fullWidth
+                  label="Email Address"
+                  required
+                  type="email"
+                />
               </Grid>
               <Grid item xs={12} sm={6}>
                 <TextField fullWidth label="Phone" required />
               </Grid>
               <Grid item xs={12}>
-                <FormControlLabel control={<Checkbox />} label="Create an account?" />
-                <FormControlLabel control={<Checkbox />} label="Ship to a different address?" />
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Create an account?"
+                />
+                <FormControlLabel
+                  control={<Checkbox />}
+                  label="Ship to a different address?"
+                />
               </Grid>
             </Grid>
           </Paper>
@@ -47,7 +75,9 @@ const Checkout = () => {
 
         <Grid item xs={12} md={5}>
           <Paper sx={{ p: 3 }}>
-            <Typography variant="h6" gutterBottom>Your Order</Typography>
+            <Typography variant="h6" gutterBottom>
+              Your Order
+            </Typography>
             <Box display="flex" justifyContent="space-between" mt={2}>
               <Typography>Bioderma</Typography>
               <Typography>$49.00</Typography>
@@ -64,7 +94,11 @@ const Checkout = () => {
               <Typography>Total</Typography>
               <Typography fontWeight="bold">$98.00</Typography>
             </Box>
-            <Button fullWidth variant="contained" sx={{ mt: 3 }} href="/thankyou">Place Order</Button>
+            <Link to="/thankyou" style={{ textDecoration: "none" }}>
+              <Button fullWidth variant="contained" sx={{ mt: 3 }}>
+                Place Order
+              </Button>
+            </Link>
           </Paper>
         </Grid>
       </Grid>

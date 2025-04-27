@@ -1,22 +1,28 @@
 // src/components/Login.js
 import React, { useState } from 'react';
-import { TextField, Button, Typography, Box, Container } from '@mui/material';
+import {
+  TextField,
+  Button,
+  Typography,
+  Box,
+  Container
+} from '@mui/material';
+import { useNavigate } from 'react-router-dom'; // ✅ React Router navigation
 
 const Login = () => {
-  const [email, setEmail] = useState(''); // State for email input
-  const [password, setPassword] = useState(''); // State for password input
-  const [error, setError] = useState(''); // State for error message
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const navigate = useNavigate(); // ✅ Initialize navigator
 
-  // Handle login form submission
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Here we don't validate email and password. Just redirect.
     if (email && password) {
-      // Simulate successful login by redirecting to the cart page
-      window.location.href = '/shop';
+      // ✅ Navigate to shop using React Router
+      navigate('/shop');
     } else {
-      setError('Please provide both email and password'); // Show error if email or password is empty
+      setError('Please provide both email and password');
     }
   };
 
@@ -24,9 +30,8 @@ const Login = () => {
     <Container component="main" maxWidth="xs">
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mt: 8 }}>
         <Typography variant="h5">Login</Typography>
-        
+
         <form onSubmit={handleLogin} style={{ width: '100%', marginTop: '1rem' }}>
-          {/* Email input */}
           <TextField
             label="Email"
             type="email"
@@ -37,7 +42,6 @@ const Login = () => {
             sx={{ mb: 2 }}
           />
 
-          {/* Password input */}
           <TextField
             label="Password"
             type="password"
@@ -48,14 +52,12 @@ const Login = () => {
             sx={{ mb: 2 }}
           />
 
-          {/* Show error message if email or password is missing */}
           {error && (
             <Typography color="error" variant="body2" sx={{ mb: 2 }}>
               {error}
             </Typography>
           )}
 
-          {/* Login button */}
           <Button
             type="submit"
             fullWidth

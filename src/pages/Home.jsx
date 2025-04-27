@@ -179,9 +179,11 @@ const Home = () => {
   )}
 
   <Box textAlign="center" mt={5}>
-    <Button variant="contained" size="large" href="/shop">
-      View All Products
-    </Button>
+  <Link to="/shop" style={{ textDecoration: 'none' }}>
+  <Button variant="contained" size="large">
+    View All Products
+  </Button>
+</Link>
   </Box>
 </Container>
       {/* Testimonials */}
