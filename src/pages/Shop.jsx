@@ -1,4 +1,4 @@
-import React, { useContext, useState, useMemo } from 'react';
+import React, { useContext, useState, useMemo } from "react";
 import {
   Box,
   Container,
@@ -16,16 +16,17 @@ import {
   Slider,
   Paper,
   Stack,
-} from '@mui/material';
-import BottomBanner from '../components/BottomBanner';
-import { ProductContext } from '../context/ProductContext';
+} from "@mui/material";
+import BottomBanner from "../components/BottomBanner";
+import { ProductContext } from "../context/ProductContext";
+import { Link } from "react-router-dom";
 
 const Shop = () => {
   const { products, loading, error } = useContext(ProductContext);
 
   const itemsPerPage = 8;
   const [page, setPage] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState("");
   const [priceRange, setPriceRange] = useState([0, 500]);
 
   const handlePageChange = (event, value) => {
@@ -55,19 +56,25 @@ const Shop = () => {
 
   // Determine if any filter is active
   const isFilterActive =
-    selectedCategory !== '' || priceRange[0] > 0 || priceRange[1] < 500;
+    selectedCategory !== "" || priceRange[0] > 0 || priceRange[1] < 500;
 
   // Filter products
   const filteredProducts = isFilterActive
     ? products.filter((product) => {
-        const matchCategory = selectedCategory ? product.category === selectedCategory : true;
-        const matchPrice = product.price >= priceRange[0] && product.price <= priceRange[1];
+        const matchCategory = selectedCategory
+          ? product.category === selectedCategory
+          : true;
+        const matchPrice =
+          product.price >= priceRange[0] && product.price <= priceRange[1];
         return matchCategory && matchPrice;
       })
     : products;
 
   const startIndex = (page - 1) * itemsPerPage;
-  const selectedProducts = filteredProducts.slice(startIndex, startIndex + itemsPerPage);
+  const selectedProducts = filteredProducts.slice(
+    startIndex,
+    startIndex + itemsPerPage
+  );
 
   return (
     <>
@@ -85,16 +92,18 @@ const Shop = () => {
             {error}
           </Typography>
         ) : (
-          <Grid container spacing={4}  sx={{
-           
-           
-            flexDirection: 'column',
-            width: "93%",
-            gap: 3,
-          }}>
+          <Grid
+            container
+            spacing={4}
+            sx={{
+              flexDirection: "column",
+              width: "93%",
+              gap: 3,
+            }}
+          >
             {/* Filters */}
             <Grid item xs={12} md={3}>
-              <Paper elevation={3} sx={{ p: 3, width: '100%' }}>
+              <Paper elevation={3} sx={{ p: 3, width: "100%" }}>
                 <Typography variant="h6" gutterBottom>
                   Filters
                 </Typography>
@@ -137,32 +146,37 @@ const Shop = () => {
                 {selectedProducts.length > 0 ? (
                   selectedProducts.map((product) => (
                     <Grid item key={product.id} xs={12} sm={6} md={4}>
-                      <Card sx={{ textAlign: 'center' }}>
+                      <Card sx={{ textAlign: "center" }}>
                         <CardMedia
                           component="img"
                           image={product.image}
                           alt={product.name}
-                          sx={{ p: 2, height: 240, objectFit: 'contain' }}
+                          sx={{ p: 2, height: 240, objectFit: "contain" }}
                         />
                         <CardContent>
                           <Typography variant="h6">{product.name}</Typography>
                           <Typography variant="body2" color="text.secondary">
                             {product.original ? (
                               <>
-                                <del>${product.original}</del> — ${product.price}
+                                <del>${product.original}</del> — $
+                                {product.price}
                               </>
                             ) : (
                               `$${product.price}`
                             )}
                           </Typography>
-                          <Button
-                            variant="outlined"
-                            size="small"
-                            sx={{ mt: 1 }}
-                            href={`/product/${product.id}`}
+                          <Link
+                            to={`/product/${product.id}`}
+                            style={{ textDecoration: "none" }}
                           >
-                            View Details
-                          </Button>
+                            <Button
+                              variant="outlined"
+                              size="small"
+                              sx={{ mt: 1 }}
+                            >
+                              View Details
+                            </Button>
+                          </Link>
                         </CardContent>
                       </Card>
                     </Grid>
@@ -176,7 +190,7 @@ const Shop = () => {
 
               {/* Pagination */}
               {filteredProducts.length > itemsPerPage && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+                <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
                   <Pagination
                     count={Math.ceil(filteredProducts.length / itemsPerPage)}
                     page={page}
